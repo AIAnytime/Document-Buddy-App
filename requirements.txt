@@ -1,0 +1,11 @@
+streamlit 
+langchain
+langchain_community
+langchain_core
+python-dotenv
+langchain-huggingface
+langchain-qdrant
+langchain-ollama
+unstructured[pdf]
+onnx==1.16.1
+qdrant-client
