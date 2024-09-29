@@ -2,7 +2,7 @@
 
 ![App Screenshot](images/app_screenshot.png)
 
-**Document Buddy App** is a powerful Streamlit-based application designed to simplify document management. Upload your PDF documents, create embeddings for efficient retrieval, and interact with your documents through an intelligent chatbot interface. Whether you're summarizing lengthy reports or seeking specific information within your documents, Document Buddy App has you covered! 🚀
+**Document Buddy App** is a powerful Streamlit-based application designed to simplify document management. Upload your PDF documents, create embeddings for efficient retrieval, and interact with your documents through an intelligent chatbot interface. 🚀
 
 ## 🛠️ Features
 
