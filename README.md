@@ -17,14 +17,11 @@
 ```
 document_buddy_app/
 │
-├── app.py
+├── new.py
 ├── vectors.py
 ├── chatbot.py
 ├── requirements.txt
-├── README.md
-├── LICENSE
-└── images/
-    └── app_screenshot.png
+
 ```
 
 ## 🚀 Getting Started
