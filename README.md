@@ -30,15 +30,12 @@ The Document Buddy App leverages a combination of cutting-edge technologies to d
 
 ## 📁 Directory Structure
 
-```
 document_buddy_app/
 │
 ├── new.py
 ├── vectors.py
 ├── chatbot.py
 ├── requirements.txt
-
-```
 
 ## 🚀 Getting Started
 
@@ -49,107 +46,106 @@ Follow these instructions to set up and run the Document Buddy App on your local
 ```bash
 git clone https://github.com/AIAnytime/Document-Buddy-App.git
 cd Document-Buddy-App
-```
 
-### 2. Create a Virtual Environment
+2. Create a Virtual Environment
 
-It's recommended to use a virtual environment to manage dependencies.
+You can either use Python’s venv or Anaconda to create a virtual environment for managing dependencies.
 
-#### On Windows:
+Option 1: Using venv
 
-```bash
+On Windows:
+
 python -m venv venv
 venv\Scripts\activate
-```
 
-#### On macOS and Linux:
+On macOS and Linux:
 
-```bash
 python3 -m venv venv
 source venv/bin/activate
-```
 
-### 3. Install Dependencies
+Option 2: Using Anaconda
 
-Ensure you have `pip` installed. Then, install the required packages using `requirements.txt`:
+Follow these steps to create a virtual environment using Anaconda:
 
-```bash
+	1.	Open the Anaconda Prompt.
+	2.	Create a new environment:
+
+conda create --name document_buddy python=3.9
+
+(Replace document_buddy with your preferred environment name if desired).
+
+	3.	Activate the newly created environment:
+
+conda activate document_buddy
+
+
+
+3. Install Dependencies
+
+Once the environment is set up (whether venv or Conda), install the required dependencies using requirements.txt:
+
 pip install -r requirements.txt
-```
 
-### 4. Run the App
+4. Run the App
 
 Start the Streamlit app using the following command:
 
-```bash
 streamlit run new.py
-```
 
-*Note: If your main application file is named differently, replace `new.py` with your actual file name (e.g., `app.py`).*
+Note: If your main application file is named differently, replace new.py with your actual file name (e.g., app.py).
 
-This command will launch the app in your default web browser. If it doesn't open automatically, navigate to the URL provided in the terminal (usually `http://localhost:8501`).
+This command will launch the app in your default web browser. If it doesn’t open automatically, navigate to the URL provided in the terminal (usually http://localhost:8501).
 
-## 📝 Usage
+📝 Usage
 
-1. **Home**: Get an overview of the app and its functionalities.
-2. **Chatbot**:
-   - **Column 1**: Upload a PDF document and preview it within the app.
-   - **Column 2**: Create embeddings for the uploaded document. This process enables efficient search and retrieval.
-   - **Column 3**: Interact with the chatbot by asking questions related to your uploaded document. The chatbot leverages the created embeddings to provide accurate and context-aware responses.
-3. **Contact**: Find the developer's contact information and contribute to the project on GitHub.
+	1.	Home: Get an overview of the app and its functionalities.
+	2.	Chatbot:
+	•	Column 1: Upload a PDF document and preview it within the app.
+	•	Column 2: Create embeddings for the uploaded document. This process enables efficient search and retrieval.
+	•	Column 3: Interact with the chatbot by asking questions related to your uploaded document. The chatbot leverages the created embeddings to provide accurate and context-aware responses.
+	3.	Contact: Find the developer’s contact information and contribute to the project on GitHub.
 
-## 🤝 Contributing
+🤝 Contributing
 
-Contributions are welcome! Whether it's reporting a bug, suggesting a feature, or submitting a pull request, your input is highly appreciated. Follow these steps to contribute:
+Contributions are welcome! Whether it’s reporting a bug, suggesting a feature, or submitting a pull request, your input is highly appreciated. Follow these steps to contribute:
 
-1. **Fork the Repository**: Click on the "Fork" button at the top-right corner of the repository page.
-2. **Clone Your Fork**
-3. **Create a New Branch**:
+	1.	Fork the Repository: Click on the “Fork” button at the top-right corner of the repository page.
+	2.	Clone Your Fork
+	3.	Create a New Branch:
 
-    ```bash
-    git checkout -b feature/YourFeatureName
-    ```
+git checkout -b feature/YourFeatureName
 
-4. **Make Your Changes**: Implement your feature or fix.
-5. **Commit Your Changes**:
 
-    ```bash
-    git commit -m "Add Your Feature Description"
-    ```
+	4.	Make Your Changes: Implement your feature or fix.
+	5.	Commit Your Changes:
 
-6. **Push to Your Fork**:
+git commit -m "Add Your Feature Description"
 
-    ```bash
-    git push origin feature/YourFeatureName
-    ```
 
-7. **Create a Pull Request**: Navigate to the original repository and create a pull request from your fork.
+	6.	Push to Your Fork:
 
-## 📄 License
+git push origin feature/YourFeatureName
 
-This project is licensed under the [MIT License](LICENSE).
 
----
+	7.	Create a Pull Request: Navigate to the original repository and create a pull request from your fork.
 
-## 📫 Contact
+📄 License
 
-- **Email**: [aianytime07@gmail.com](mailto:aianytime07@example.com) ✉️
+This project is licensed under the MIT License.
+
+📫 Contact
+
+	•	Email: aianytime07@gmail.com ✉️
 
 Feel free to reach out for any queries, suggestions, or contributions. Your feedback is invaluable!
 
----
-
 © 2024 Document Buddy App by AI Anytime. All rights reserved. 🛡️
 
----
+🔗 Useful Links
 
-## 🔗 Useful Links
-
-- **Streamlit Documentation**: [https://docs.streamlit.io/](https://docs.streamlit.io/)
-- **LangChain Documentation**: [https://langchain.readthedocs.io/](https://langchain.readthedocs.io/)
-- **Qdrant Documentation**: [https://qdrant.tech/documentation/](https://qdrant.tech/documentation/)
-- **ChatOllama Documentation**: [https://github.com/langchain-ai/langchain-llms#ollama](https://github.com/langchain-ai/langchain-llms#ollama)
-
----
+	•	Streamlit Documentation: https://docs.streamlit.io/
+	•	LangChain Documentation: https://langchain.readthedocs.io/
+	•	Qdrant Documentation: https://qdrant.tech/documentation/
+	•	ChatOllama Documentation: https://github.com/langchain-ai/langchain-llms#ollama
 
 Happy coding! 🚀✨
