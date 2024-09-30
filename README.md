@@ -95,6 +95,7 @@ streamlit run new.py
 Note: If your main application file is named differently, replace new.py with your actual file name (e.g., app.py).
 
 This command will launch the app in your default web browser. If it doesn’t open automatically, navigate to the URL provided in the terminal (usually http://localhost:8501).
+```
 
 📝 Usage
 
