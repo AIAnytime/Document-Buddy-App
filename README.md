@@ -97,7 +97,7 @@ Note: If your main application file is named differently, replace new.py with yo
 This command will launch the app in your default web browser. If it doesn’t open automatically, navigate to the URL provided in the terminal (usually http://localhost:8501).
 ```
 
-📝 Usage
+### 📝 Usage
 
 1.	Home: Get an overview of the app and its functionalities.
 2.	Chatbot:
@@ -106,7 +106,7 @@ This command will launch the app in your default web browser. If it doesn’t op
 •	Column 3: Interact with the chatbot by asking questions related to your uploaded document. The chatbot leverages the created embeddings to provide accurate and context-aware responses.
 3.	Contact: Find the developer’s contact information and contribute to the project on GitHub.
 
-🤝 Contributing
+### 🤝 Contributing
 
 Contributions are welcome! Whether it’s reporting a bug, suggesting a feature, or submitting a pull request, your input is highly appreciated. Follow these steps to contribute:
 
@@ -130,11 +130,11 @@ git push origin feature/YourFeatureName
 
 7.	Create a Pull Request: Navigate to the original repository and create a pull request from your fork.
 
-📄 License
+### 📄 License
 
 This project is licensed under the MIT License.
 
-📫 Contact
+### 📫 Contact
 
 •	Email: aianytime07@gmail.com ✉️
 
@@ -142,7 +142,7 @@ Feel free to reach out for any queries, suggestions, or contributions. Your feed
 
 © 2024 Document Buddy App by AI Anytime. All rights reserved. 🛡️
 
-🔗 Useful Links
+### 🔗 Useful Links
 
 •	Streamlit Documentation: https://docs.streamlit.io/
 •	LangChain Documentation: https://langchain.readthedocs.io/
