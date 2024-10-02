@@ -99,18 +99,6 @@ Note: If your main application file is named differently, replace new.py with yo
 This command will launch the app in your default web browser. If it doesn’t open automatically, navigate to the URL provided in the terminal (usually http://localhost:8501).
 ```
 
-### 📝 Usage
-
-1.	Home: Get an overview of the app and its functionalities.
-2.	Chatbot:
-•	Column 1: Upload a PDF document and preview it within the app.
-
-•	Column 2: Create embeddings for the uploaded document. This process enables efficient search and retrieval.
-
-•	Column 3: Interact with the chatbot by asking questions related to your uploaded document. The chatbot leverages the created embeddings to provide accurate and context-aware responses.
-
-3.	Contact: Find the developer’s contact information and contribute to the project on GitHub.
-
 ### 🤝 Contributing
 
 Contributions are welcome! Whether it’s reporting a bug, suggesting a feature, or submitting a pull request, your input is highly appreciated. Follow these steps to contribute:
