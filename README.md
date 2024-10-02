@@ -31,11 +31,13 @@ The Document Buddy App leverages a combination of cutting-edge technologies to d
 ## 📁 Directory Structure
 
 document_buddy_app/
+```
 │
 ├── new.py
 ├── vectors.py
 ├── chatbot.py
 ├── requirements.txt
+```
 
 ## 🚀 Getting Started
 
