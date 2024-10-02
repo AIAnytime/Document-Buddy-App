@@ -107,18 +107,21 @@ Contributions are welcome! Whether it’s reporting a bug, suggesting a feature,
 2.	Clone Your Fork
 3.	Create a New Branch:
 
-git checkout -b feature/YourFeatureName
+```git checkout -b feature/YourFeatureName
+```
 
 
 4.	Make Your Changes: Implement your feature or fix.
 5.	Commit Your Changes:
 
-git commit -m "Add Your Feature Description"
+```git commit -m "Add Your Feature Description"
+```
 
 
 6.	Push to Your Fork:
 
-git push origin feature/YourFeatureName
+```git push origin feature/YourFeatureName
+```
 
 
 7.	Create a Pull Request: Navigate to the original repository and create a pull request from your fork.
@@ -137,9 +140,13 @@ Feel free to reach out for any queries, suggestions, or contributions. Your feed
 
 ### 🔗 Useful Links
 
+
 •	Streamlit Documentation: https://docs.streamlit.io/
+
 •	LangChain Documentation: https://langchain.readthedocs.io/
+
 •	Qdrant Documentation: https://qdrant.tech/documentation/
+
 •	ChatOllama Documentation: https://github.com/langchain-ai/langchain-llms#ollama
 
 Happy coding! 🚀✨
